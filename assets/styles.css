@@ -56,3 +56,18 @@ video {
 	outline: 3px solid var(--blue);
 	outline-offset: 3px;
 }
+
+details {
+	border: 5px solid var(--green);
+	border-radius: 40px 0 40px 10px;
+	width: 50%;
+	padding: 20px;
+	margin-bottom: 10px;
+	&:open {
+		background-color: var(--green);
+	}
+	summary {
+		padding: 20px;
+		width: 30%;
+	}
+}

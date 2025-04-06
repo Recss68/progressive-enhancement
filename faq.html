@@ -7,11 +7,19 @@
 		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 		<link href="assets/styles.css" rel="stylesheet">
 		<style>
-			/* Schrijf hier gewoon je CSS voor dit component */
-
-			/* Hint: Dit component kun je volledig met HTML en CSS bouwen */
-
-			/* Hint: Denk aan de states van het component; deze kan open en dicht zijn */
+			details {
+				border: 5px solid var(--green);
+				border-radius: 40px 0 40px 0;
+				width: 30%;
+				padding: 20px;
+				margin-bottom: 10px;
+				&:open {
+					background-color: var(--green);
+				}
+				summary {
+					padding: 20px;
+				}
+			}
 		</style>
 	</head>
 	<body>
